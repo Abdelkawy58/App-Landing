@@ -1,0 +1,128 @@
+        <div class="bg"></div>
+        <section class="review">
+            <div class="continer">
+                <div class="head">
+                    <h2>Choose Your Very Best Pricing Plan.</h2>
+                </div>
+                <div class="boxes">
+                    <div class="box">
+                        <h2>2 Years</h2>
+                        <h3>%05 / month</h3>
+                        <ul>
+                           <li>Increase traffic 50%</li>
+                           <li>E-mail support</li>
+                           <li>10 Free Optimization</li>
+                           <li>24/7 support</li>
+                        </ul>
+                        <button>GET STARTED</button>
+                    </div>
+                    <div class="box">
+                        <h2>2 Years</h2>
+                        <h3>%05 / month</h3>
+                        <ul>
+                           <li>Increase traffic 50%</li>
+                           <li>E-mail support</li>
+                           <li>10 Free Optimization</li>
+                           <li>24/7 support</li>
+                        </ul>
+                        <button>GET STARTED</button>
+                    </div>
+                    <div class="box">
+                        <h2>2 Years</h2>
+                        <h3>%05 / month</h3>
+                        <ul>
+                           <li>Increase traffic 50%</li>
+                           <li>E-mail support</li>
+                           <li>10 Free Optimization</li>
+                           <li>24/7 support</li>
+                        </ul>
+                        <button>GET STARTED</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+.bg{
+    background-image: url(./images/bg2.webp);
+    height: 65vh;
+    background-position: center;
+    background-size:auto;
+    margin-top: 60px;
+    position: relative;
+}
+.bg::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: -webkit-linear-gradient(0deg, #f9218d 0%, #6c19f6 100%);
+    opacity: 0.85;
+}
+.review .continer{
+    position: relative;
+    
+}
+.review .continer .head{
+    position: absolute;
+    top: -380px;
+    left: 30%;
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 40%;
+    font-size: 27px;
+}
+.review .continer .boxes{
+    
+}
+.review .continer .boxes .box{
+    text-align: center;
+    position: absolute;
+    top: -280px;
+    left: 10px;
+    background-color: red;
+    padding: 60px 60px;
+}
+.review .continer .boxes .box h2 ,.review .continer .boxes .box h3{
+    font-size: 30px;
+    color: #2b044d;
+    margin: 15px 0;
+}
+.review .continer .boxes .box ul{
+    margin-top: 40px;
+}
+.review .continer .boxes .box ul li{
+    color: #888;
+    font-size: 18px;
+}
+.review .continer .boxes .box button{
+    padding: 20px 40px;
+    background: #712fda;
+    border-radius: 8px;
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
